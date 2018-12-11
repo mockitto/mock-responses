@@ -1,126 +1,110 @@
-{
-    "customerId": "1111",
-    "agreementId": "222",
-    "productCharacteristicsOptions": [
-        {
-            "code": "PRI_Main",
-            "name": "PRI Main",
-            "productCharacteristics": [{
-                "productSpecCharacteristic": {
-                    "code": "Service_ID",
-                    "name": "Service ID"
-                },
-                "value": "PRI979",
-                "valueForDisplay": "PRI979"
-            }]
-        },
-        {
-            "code": "PRI_Plan",
-            "name": "PRI Plan",
-            "productCharacteristics": [
-                {
-                    "productSpecCharacteristic": {
-                        "code": "Number_of_full_PRIs",
-                        "name": "Number of full PRIs"
-                    },
-                    "value": "2",
-                    "valueForDisplay": "2"
-                },
-                {
-                    "productSpecCharacteristic": {
-                        "code": "Number_of_Channels_of_Fractional_PRI",
-                        "name": "Number of Channels of Fractional PRI"
-                    },
-                    "value": "3",
-                    "valueForDisplay": "3"
-                }
-            ]
-        },
-        {
-            "code": "PRI_Features",
-            "name": "PRI Features",
-            "productCharacteristics": [
-                {
-                    "productSpecCharacteristic": {
-                        "code": "Number_of_Trunk_Group_with_Direct_Trunk_Overflow",
-                        "name": "Number of Trunk Group with Direct Trunk Overflow"
-                    },
-                    "value": "3",
-                    "valueForDisplay": "3"
-                },
-                {
-                    "productSpecCharacteristic": {
-                        "code": "Number_of_TNs_with_Call_Forward_No_Reachable",
-                        "name": "Number of TNs with Call Forward No Reachable"
-                    },
-                    "value": "2",
-                    "valueForDisplay": "2"
-                },
-                {
-                    "productSpecCharacteristic": {
-                        "code": "Number_of_Trunk_Groups_with_Dialed_Number_Identification_Service",
-                        "name": "Number of Trunk Groups with Dialed Number Identification Service"
-                    },
-                    "value": "3",
-                    "valueForDisplay": "3"
-                }
-            ]
-        },
-        {
-            "code": "Directory_Listing",
-            "name": "Directory Listing",
-            "productCharacteristics": [
-                {
-                    "productSpecCharacteristic": {
-                        "code": "Publication_Type",
-                        "name": "Publication Type"
-                    },
-                    "value": "First_Listing",
-                    "valueForDisplay": "First Listing"
-                },
-                {
-                    "productSpecCharacteristic": {
-                        "code": "Number_of_Additional_Listings",
-                        "name": "Number of Additional Listings"
-                    },
-                    "value": "2",
-                    "valueForDisplay": "2"
-                }
-            ]
-        },
-        {
-            "code": "Telephone_Numbers",
-            "name": "Telephone Numbers",
-            "productCharacteristics": [
-                {
-                    "productSpecCharacteristic": {
-                        "code": "TN_Quantity",
-                        "name": "TN Quantity"
-                    },
-                    "value": "1",
-                    "valueForDisplay": "1"
-                },
-                {
-                    "productSpecCharacteristic": {
-                        "code": "Number_of_Included_TNs",
-                        "name": "Number of Included TNs"
-                    },
-                    "value": "0",
-                    "valueForDisplay": "0"
-                }
-            ]
-        },
-        {
-            "code": "Toll_Free_Numbers",
-            "name": "Toll Free Numbers",
-            "productCharacteristics": [{
-                "productSpecCharacteristic": {
-                    "code": "Toll_Free_TN_Quantity",
-                    "name": "Toll Free TN Quantity"
-                },
-                "value": "1",
-                "valueForDisplay": "1"
-            }]
-        }
-    ]
+{  
+   "customerId":"939769301",
+   "agreementId":"2525",
+   "productCharacteristicsOptions":[  
+      {  
+         "code":"SIP_Main",
+         "productCharacteristics":[  
+            {  
+               "productSpecCharacteristic":{  
+                  "code":"Service_ID"
+               },
+               "value":"SIP123"
+            },
+            {  
+               "productSpecCharacteristic":{  
+                  "code":"dependentProducts"
+               },
+               "value":""
+            },
+            {  
+               "productSpecCharacteristic":{  
+                  "code":"productDependencies"
+               },
+               "value":""
+            }
+         ]
+      },
+      {  
+         "code":"SIP_Plan",
+         "productCharacteristics":[  
+            {  
+               "productSpecCharacteristic":{  
+                  "code":"Number_of_Concurrent_Calls"
+               },
+               "value":"10"
+            },
+            {  
+               "productSpecCharacteristic":{  
+                  "code":"Concurrent_Call_Rate_Override"
+               }
+            }
+         ]
+      },
+      {  
+         "code":"Directory_Listing",
+         "productCharacteristics":[  
+            {  
+               "productSpecCharacteristic":{  
+                  "code":"Publication_Type"
+               },
+               "value":"First_Listing"
+            },
+            {  
+               "productSpecCharacteristic":{  
+                  "code":"Number_of_Additional_Listings"
+               }
+            }
+         ]
+      },
+      {  
+         "code":"Telephone_Numbers",
+         "productCharacteristics":[  
+            {  
+               "productSpecCharacteristic":{  
+                  "code":"TN_Quantity"
+               },
+               "value":"200"
+            },
+            {  
+               "productSpecCharacteristic":{  
+                  "code":"Number_of_Included_TNs"
+               },
+               "value":"0"
+            },
+            {  
+               "productSpecCharacteristic":{  
+                  "code":"Total_Number_of_TNs_in_Agreement"
+               },
+               "value":"1000"
+            }
+         ]
+      },
+      {  
+         "code":"Contract_Terms",
+         "productCharacteristics":[  
+            {  
+               "productSpecCharacteristic":{  
+                  "code":"Contract_Term"
+               },
+               "value":"36"
+            },
+            {  
+               "productSpecCharacteristic":{  
+                  "code":"Custom_Terms"
+               }
+            },
+            {  
+               "productSpecCharacteristic":{  
+                  "code":"Commitment_Start_Date"
+               }
+            },
+            {  
+               "productSpecCharacteristic":{  
+                  "code":"Commitment_End_Date"
+               }
+            }
+         ]
+      }
+   ]
 }
